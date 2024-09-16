@@ -1,11 +1,13 @@
-import React from 'react'
-import "./App.css"
 
-const App = () => {
+import './App.css'
+import HomeScreen from './screen/HomeScreen/HomeScreen'
+
+function App() {
+
   return (
-    <div>
-      App
-    </div>
+   <div>
+    <HomeScreen/>
+   </div>
   )
 }
 
